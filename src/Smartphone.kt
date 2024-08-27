@@ -1,2 +1,4 @@
-class Smartphone {
+open class Smartphone: Phone() {
+
+    var typeDisplay: String = ""
 }
